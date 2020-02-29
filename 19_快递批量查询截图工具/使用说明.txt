@@ -1,0 +1,5 @@
+Express_Tracking.exe：带有快递单号识别功能，可查询顺丰和其他单号，但是识别功能有误差
+
+Express_Tracking_for_others.exe：只能通过快递100查询非顺丰单号，查非顺丰单号时速度更快，准确率高
+
+Express_Tracking_for_shunfeng.exe：只能通过顺丰官网查询顺丰单号，纯顺丰单号准确率更高

@@ -1,0 +1,17 @@
+1581684836486	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\WWCHENG\\AppData\\Local\\Temp\\rust_mozprofile.yr1UFu5mZZEj"
+*** You are running in headless mode.
+1581684840073	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1581684840074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1581684840074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1581684840074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1581684842489	Marionette	INFO	Listening on port 61990
+1581684842803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1581684949476	Marionette	INFO	Stopped listening on port 61990
+[Parent 13680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 13680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1712, Chrome_ChildThread] WARNING: pipe error: 109: f[Child 20372, Chrome_ChilidThread] WARNING: pipe error: 109: file z:/task_1572401533/buillde/ szr:c//tiapsk_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_chancnel_win.cc, line 341
+/[Child chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chil[Parent 13680, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19604, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 

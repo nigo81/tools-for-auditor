@@ -1,0 +1,112 @@
+08-33-2019 19:33:56 15Scends:INFO:请在60秒内用手机完成微信扫码，超时后会视同不扫码继续运行
+08-33-2019 19:33:56 15Scends:INFO:可以不使用对应手机号的微信扫码，但是将无法获得电子存根信息
+08-33-2019 19:33:56 15Scends:INFO:成功扫码之后可以将二维码图片关闭
+08-33-2019 19:33:56 15Scends:INFO:正在打开微信扫码界面,请耐心等待30秒左右···
+
+08-34-2019 19:34:31 15Scends:INFO:扫码成功，开始查询
+08-34-2019 19:34:31 15Scends:INFO:当前进度：1/4 ，正在查询的单号为 [046919058627]
+08-34-2019 19:34:31 15Scends:INFO:单号 [046919058627] 所属快递公司为 [shunfeng]
+08-34-2019 19:34:33 15Scends:INFO:正在输入单号进行查询
+08-34-2019 19:34:37 15Scends:INFO:第 1 次尝试解析滑动验证码
+08-34-2019 19:34:40 15Scends:INFO:解析成功，正在模拟滑动验证码···
+08-34-2019 19:34:52 15Scends:INFO:verify_ok = True
+08-34-2019 19:34:53 15Scends:INFO:获取物流节点信息和截图
+08-34-2019 19:34:53 15Scends:INFO:没有查询到相关物流信息
+08-34-2019 19:34:53 15Scends:INFO:正在获取电子存根信息和截图
+08-34-2019 19:34:53 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+08-34-2019 19:34:53 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "Express_Tracking.py", line 457, in next_bill_number
+    '//button[@class="close"]').click()
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+08-34-2019 19:34:54 15Scends:INFO:当前进度：2/4 ，正在查询的单号为 [SF1011019031630]
+08-34-2019 19:34:54 15Scends:INFO:单号 [SF1011019031630] 所属快递公司为 [shunfeng]
+08-34-2019 19:34:56 15Scends:INFO:正在输入单号进行查询
+08-35-2019 19:35:00 15Scends:INFO:第 1 次尝试解析滑动验证码
+08-35-2019 19:35:04 15Scends:INFO:解析成功，正在模拟滑动验证码···
+08-35-2019 19:35:25 15Scends:INFO:verify_ok = False
+08-35-2019 19:35:25 15Scends:INFO:第 2 次尝试解析滑动验证码
+08-35-2019 19:35:29 15Scends:INFO:解析成功，正在模拟滑动验证码···
+08-35-2019 19:35:41 15Scends:INFO:verify_ok = True
+08-35-2019 19:35:42 15Scends:INFO:获取物流节点信息和截图
+08-35-2019 19:35:44 15Scends:INFO:已签收 2019-08-27 14:30 代签收(收发室 ),感谢使用顺丰,期待再次为您服务
+08-35-2019 19:35:44 15Scends:INFO:派送中 2019-08-27 13:57 快件交给程永亮，正在派送途中（联系电话：13528719658）
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 13:02 快件到达 【深圳福田天安营业部】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 12:29 快件已发车
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 12:29 快件在【深圳黄田中转场】已装车,准备发往 【深圳福田天安营业部】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 10:49 快件到达 【深圳黄田中转场】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 09:12 快件到达【深圳】，准备发往【深圳黄田中转场】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 06:16 快件在【北京飞往深圳航班上】已起飞
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 02:48 快件在【北京首都机场集散中心】已装车,准备发往 【深圳黄田中转场】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 02:07 快件到达 【北京首都机场集散中心】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 01:59 快件已发车
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-27 01:42 快件在【北京首都机场集散中心2】已装车,准备发往 【北京首都机场集散中心】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-26 23:53 快件到达 【北京首都机场集散中心2】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-26 23:26 快件已发车
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-26 23:25 快件在【北京顺义集散中心】已装车,准备发往下一站
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-26 22:10 快件到达 【北京顺义集散中心】
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-26 21:04 快件已发车
+08-35-2019 19:35:45 15Scends:INFO:运送中 2019-08-26 20:59 快件在【北京东城东方银座营业点】已装车,准备发往下一站
+08-35-2019 19:35:45 15Scends:INFO:已取件 2019-08-26 19:23 顺丰速运 已收取快件
+08-35-2019 19:35:46 15Scends:INFO:正在拼接物流节点截图
+08-35-2019 19:35:47 15Scends:INFO:正在获取电子存根信息和截图
+08-35-2019 19:35:47 15Scends:INFO:该单号对应的手机号与扫码的微信号可能不符，无法获取电子存根截图
+08-35-2019 19:35:47 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "Express_Tracking.py", line 457, in next_bill_number
+    '//button[@class="close"]').click()
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 394, in find_element_by_xpath
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 978, in find_element
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 321, in execute
+  File "site-packages\selenium\webdriver\remote\errorhandler.py", line 242, in check_response
+selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: //button[@class="close"]
+
+08-35-2019 19:35:48 15Scends:INFO:当前进度：3/4 ，正在查询的单号为 [70223355156404]
+08-35-2019 19:35:49 15Scends:INFO:单号 [70223355156404] 所属快递公司为 [huitongkuaidi]
+08-35-2019 19:35:49 Express_Tracking:ERROR:Recording Errors
+Traceback (most recent call last):
+  File "site-packages\urllib3\connectionpool.py", line 600, in urlopen
+  File "site-packages\urllib3\connectionpool.py", line 384, in _make_request
+  File "<string>", line 2, in raise_from
+  File "site-packages\urllib3\connectionpool.py", line 380, in _make_request
+  File "http\client.py", line 1331, in getresponse
+  File "http\client.py", line 297, in begin
+  File "http\client.py", line 258, in _read_status
+  File "socket.py", line 586, in readinto
+ConnectionResetError: [WinError 10054] 远程主机强迫关闭了一个现有的连接。
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "Express_Tracking.py", line 573, in main
+    self.kd100_single()
+  File "Express_Tracking.py", line 496, in kd100_single
+    self.browser.switch_to_window(self.kd100_tab)
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 782, in switch_to_window
+  File "site-packages\selenium\webdriver\remote\switch_to.py", line 112, in window
+  File "site-packages\selenium\webdriver\remote\switch_to.py", line 123, in _w3c_window
+  File "site-packages\selenium\webdriver\remote\switch_to.py", line 119, in send_handle
+  File "site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+  File "site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+  File "site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+  File "site-packages\urllib3\request.py", line 72, in request
+  File "site-packages\urllib3\request.py", line 150, in request_encode_body
+  File "site-packages\urllib3\poolmanager.py", line 323, in urlopen
+  File "site-packages\urllib3\connectionpool.py", line 638, in urlopen
+  File "site-packages\urllib3\util\retry.py", line 367, in increment
+  File "site-packages\urllib3\packages\six.py", line 685, in reraise
+  File "site-packages\urllib3\connectionpool.py", line 600, in urlopen
+  File "site-packages\urllib3\connectionpool.py", line 384, in _make_request
+  File "<string>", line 2, in raise_from
+  File "site-packages\urllib3\connectionpool.py", line 380, in _make_request
+  File "http\client.py", line 1331, in getresponse
+  File "http\client.py", line 297, in begin
+  File "http\client.py", line 258, in _read_status
+  File "socket.py", line 586, in readinto
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+08-35-2019 19:35:49 15Scends:INFO:当前进度：4/4 ，正在查询的单号为 [SF1011019031215]
